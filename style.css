@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat+Alternates&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-image: url("./images/rc-xyz-nft-gallery-w9coDxtsfts-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Navbar */
+
+#navbar{
+    display:flex;
+    justify-content: space-between;
+    padding-inline: 70px;
+    padding-block: 30px;
+    font-size: 32px;
+    line-height: 40px;
+    color:white;
+}
+
+#login{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-color: blue;
+    padding-inline:15px;
+    border-radius: 8px;
+}
+
+/* Main section */
+
+#main-banner{
+    color:white;
+ }
+
+#by-line{
+    background-color:#a194cc;
+    width:70%;
+    border-radius: 28px;
+    margin-block:30px;
+    margin-inline: auto;
+    padding:12px;
+    color:whitesmoke;
+}
+
+#main-line{
+    font-size: 32px;
+}
+
+#main-content{
+   display: flex;
+}
+
+/* usp-list */
+
+#usp-list-section{
+    background-color: #151515;
+    padding-block:50px;
+}
+
+#usp-list{
+    background-image: radial-gradient(#81c0e7,#1394e4);
+    width:72%;
+    height:50vh;
+    margin-inline: auto;
+    border-radius: 20px;
+    padding:40px;
+}
+
+.usp-list-item{
+    width:80%;
+    background-color: #f9d77e;
+    margin:18px;
+    padding:12px;
+    font-weight: 500;
+    list-style-type: none;
+}
+
+#call-to-action{
+    color:white;
+    background-color: #3d2944;
+    padding:80px;
+    text-align: center;
+}
+
+#action-heading{
+    font-size: 36px;
+    margin-block: 24px;
+    background-color: #56455d;
+    padding-block: 16px;
+}
+
+#action-tags{
+    color:#f9d77e
+}
