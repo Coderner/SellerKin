@@ -49,6 +49,10 @@
     color:whitesmoke;
 }
 
+#by-line span{
+   font-weight: 900;
+}
+
 #main-content{
     display: flex;
     padding:50px;
@@ -125,6 +129,8 @@
     color:#f9d77e
 }
 
+/* Founders section */
+
 #founders-desk-section{
     background-image: linear-gradient(to bottom right, #3d2944, #56455d);
     padding:90px;
@@ -158,4 +164,33 @@
   color:#56455d;
   font-weight: 700;
   margin-block: 20px;
+}
+
+#winning-points-checklist ul{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.win-list-items{
+    background-color: #023b5e;
+    list-style-type: none;
+    height:80px;
+    width: 20%;
+    margin:35px;
+    border-radius: 100px;
+    padding:10px 30px;
+    font-weight:500;
+    color:white;
+}
+
+#solution ul{
+    margin-block: 30px;
+}
+
+.sol-list-items{
+    list-style-type: none;
+    border: 1px solid white;
+    margin-block:18px;
+    padding-block: 4px;
+    font-weight: 500;
 }
